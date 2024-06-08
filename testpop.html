@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LoginBox</title>
+    <style>
+        body {
+            background-color: rgb(14, 96, 81);
+            display: flex;
+            justify-content: center;
+
+        }
+
+        .box {
+            position: fixed;
+            top: 30vh;
+            display: flex;
+            justify-content: center;
+        }
+
+        .form-group1 {
+
+            display: flex;
+            justify-content: center;
+            text-justify: auto;
+        }
+
+
+
+        .S11 {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px 0%;
+
+        }
+
+        .S11>div {
+            width: 60%;
+            margin: 0% 30px;
+        }
+
+        .Signin {
+            display: flex;
+
+            justify-content: space-between;
+        }
+
+        .form-group {
+            width: 150px;
+            margin: 10px 25px;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <section class="S11">
+        <div class="login">
+            <div class="box">
+                <div class="image-area">
+                    <div class="form">
+                        <div class="Signin">
+                            <div id="join-neu-overlay-title" class="wt-text-title-large">
+                                Sign in
+                            </div>
+                            <div>
+                                <button
+                                    class="wt-btn wt-btn--secondary wt-btn--small inline-overlay-trigger register-header-action select-register"
+                                    type="button">
+                                    Register
+
+                                </button>
+                            </div>
+                        </div>
+                        <form>
+
+                            <div class="form-group">
+                                <input type="text" placeholder="Email" class="form-cntrl">
+                            </div>
+                            <div class="form-group">
+                                <input type="password" placeholder="Password" class="form-cntrl">
+                            </div>
+                            <div class="form-group1">
+                                <label><input type="checkbox">Remember Me</label>
+                                <a href="">Forgot Password</a>
+                            </div>
+                            <button>Log In</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="leftS">
+            <img src="Logo.jpg" alt="">
+
+        </div>
+    </section>
+
+</body>
+
+</html>
